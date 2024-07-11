@@ -71,3 +71,13 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+.header-txt h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    
+}
+.header-txt{
+    margin-top: 15%;
+    font-size: 30px;
+    color: #ce8054;
+}

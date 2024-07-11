@@ -14,7 +14,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(assets/portfoliobg.jpg);
+    background-image: url(/objects/cloud.gif);
     background-size: cover;
     background-position: center;
 }
@@ -27,7 +27,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #2A554E;
+    background-color: #264C6B;
     width: 100%;
     position: fixed;
     height: 100px;
@@ -47,6 +47,10 @@ nav ul li{
 
 
 }
+nav img{
+    width: 140px;
+    margin-left: 40px;
+}
 nav ul li a{
     color: #fff;
     text-decoration: none;
@@ -58,7 +62,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #f83f3f;
+    background:  #809671;
     position: absolute;
     left: 0;
     bottom: -6px;
